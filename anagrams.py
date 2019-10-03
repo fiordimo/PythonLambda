@@ -1,6 +1,4 @@
 # Import DOM
-from browser import document
-from browser import html
 
 
 def build_dict(path):
