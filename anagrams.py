@@ -34,9 +34,9 @@ def anagram(alpha, line):
 
 
 # Load our dictionary and use it.
-alpha = build_dict(r"Dictionary/Dictionary.txt")
-userinput = "tania"
-results = anagram(alpha, userinput.upper())
+#alpha = build_dict(r"Dictionary/Dictionary.txt")
+#userinput = "tania"
+#results = anagram(alpha, userinput.upper())
 
-print("Anagrams for " + userinput)
-print(results)
+#print("Anagrams for " + userinput)
+#print(results)

@@ -5,7 +5,7 @@ import anagrams
 alpha = anagrams.build_dict(r"Dictionary/Dictionary.txt")
 userinput = "sort"
 results = anagrams.anagram(alpha, userinput.upper())
-
+print(results)
 
 def handler(event, context):
     data = {
